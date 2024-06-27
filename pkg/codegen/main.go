@@ -5,7 +5,6 @@ import (
 	"os"
 
 	v12 "github.com/cnrancher/ack-operator/pkg/apis/ack.pandaria.io/v1"
-	_ "github.com/rancher/wrangler-api/pkg/generated/controllers/apiextensions.k8s.io"
 	controllergen "github.com/rancher/wrangler/v2/pkg/controller-gen"
 	"github.com/rancher/wrangler/v2/pkg/controller-gen/args"
 	"github.com/rancher/wrangler/v2/pkg/crd"

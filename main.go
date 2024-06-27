@@ -13,9 +13,8 @@ import (
 
 	"github.com/cnrancher/ack-operator/controller"
 	ackv1 "github.com/cnrancher/ack-operator/pkg/generated/controllers/ack.pandaria.io"
-
 	"github.com/google/uuid"
-	"github.com/rancher/wrangler-api/pkg/generated/controllers/apps"
+	"github.com/rancher/wrangler/v2/pkg/generated/controllers/apps"
 	core3 "github.com/rancher/wrangler/v2/pkg/generated/controllers/core"
 	"github.com/rancher/wrangler/v2/pkg/kubeconfig"
 	"github.com/rancher/wrangler/v2/pkg/signals"
